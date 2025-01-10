@@ -92,7 +92,6 @@ secure-file-upload/
 - **Logging and Monitoring**: Track suspicious file uploads.
 - **Cloud Integration**: Add support for uploading files to cloud storage (e.g., AWS S3, Google Cloud Storage).
 - **Improved Frontend**: Enhance the user interface for better user experience.
-- 
 ---
 
 ## Contribution
