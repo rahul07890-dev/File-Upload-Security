@@ -59,10 +59,10 @@ Simulates uploads of test files (malicious and safe) for vulnerability testing t
 ## Setup Instructions
 
 1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/secure-file-upload.git
-   cd secure-file-upload
-   ```
+ ```bash
+ git clone https://github.com/your-username/secure-file-upload.git
+ cd secure-file-upload
+ ```
 2. **Install Dependencies**:
 ```bash
 pip install -r requirements.txt
