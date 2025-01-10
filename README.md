@@ -62,23 +62,20 @@ Simulates uploads of test files (malicious and safe) for vulnerability testing t
    ```bash
    git clone https://github.com/your-username/secure-file-upload.git
    cd secure-file-upload
+   ```
 2. **Install Dependencies**:
 ```bash
 pip install -r requirements.txt
-
+```
 3. **Run the Application**:
-bash
-Copy code
+```bash
 python app.py
-4. Access the Application:
-Open your browser and go to:
+```
 
-arduino
-Copy code
-http://127.0.0.1:5000
-Directory Structure
-bash
-Copy code
+---
+
+## Directory Structure
+```
 secure-file-upload/
 |
 ├── app.py               # Main Flask application
@@ -87,17 +84,27 @@ secure-file-upload/
 |    └── index.html      # Frontend template for file uploads
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
-Future Enhancements
-Real-Time Malware Scanning: Integrate a malware detection system.
-Logging and Monitoring: Track suspicious file uploads.
-Cloud Integration: Add support for uploading files to cloud storage (e.g., AWS S3, Google Cloud Storage).
-Improved Frontend: Enhance the user interface for better user experience.
-Contribution
+```
+---
+
+## Future Enhancements
+- **Real-Time Malware Scanning**: Integrate a malware detection system.
+- **Logging and Monitoring**: Track suspicious file uploads.
+- **Cloud Integration**: Add support for uploading files to cloud storage (e.g., AWS S3, Google Cloud Storage).
+- **Improved Frontend**: Enhance the user interface for better user experience.
+- 
+---
+
+## Contribution
 Contributions are welcome! Feel free to fork this repository, create a branch, and submit a pull request with your improvements or new features.
 
-License
+---
+
+## License
 This project is licensed under the Apache License 2.0. See the LICENSE file for details.
 
-Acknowledgments
-Flask Documentation: For guidance on secure file handling.
-Open-Source Community: For inspiration and tools to build secure web applications.
+---
+
+## Acknowledgments
+- **Flask Documentation**: For guidance on secure file handling.
+- **Open-Source Community**: For inspiration and tools to build secure web applications.
