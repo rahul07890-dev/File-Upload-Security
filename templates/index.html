@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the File Upload App</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Upload Your File</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" required>
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+        <section>
+            <h2>View Mitigation Strategies</h2>
+            <a href="/mitigation">Click here</a>
+        </section>
+        <section>
+            <h2>Simulate Exploitation</h2>
+            <form action="/test_upload" method="post">
+                <button type="submit">Test Upload</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 File Upload App</p>
+    </footer>
+</body>
+</html>
