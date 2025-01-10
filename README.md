@@ -62,19 +62,11 @@ Simulates uploads of test files (malicious and safe) for vulnerability testing t
    ```bash
    git clone https://github.com/your-username/secure-file-upload.git
    cd secure-file-upload
-    Install Dependencies:
-Create a requirements.txt file with the following content:
-
-plaintext
-Copy code
-Flask==2.2.3
-Werkzeug==2.2.3
-Then, install the dependencies:
-
-bash
-Copy code
+2. **Install Dependencies**:
+```bash
 pip install -r requirements.txt
-3. Run the Application:
+
+3. **Run the Application**:
 bash
 Copy code
 python app.py
